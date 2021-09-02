@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: greenyellow;
+}
+
+.card {
+    display:flex;
+    animation: widenDiv 3s;
+    margin-top:25%;
+    margin-left:50%;
+    height:50px;
+    width: 100px;
+    background-color: black;
+    color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid lightblue;
+    border-right: 3px solid greenyellow;
+    border-radius: 4%;
+    
+}
+
+.answer {
+    display:flex;
+}
+
+
+.contentdiv {
+    margin: 0 auto;
+    width: 50%;
+    animation: widenDiv .1s;
+    padding-top: 50px;
+}
+
+.answerdiv {
+    margin: 0 auto;
+    width: 50%;
+    animation: widenDiv .1s;
+    padding-top: 50px;
+}
+.card:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+    color: black;
+}
+.answer:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+    color: black;
+}
+.contentdiv:hover {
+    background-color: black;
+    color: greenyellow;
+    border-color: red;
+}
+h1{
+    font-size: 50px;
+    animation: fadeIn 8s;
+}
+h2{
+    font-size: 50px;
+}
+
+.menu {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity:100;}
+}
+
+@keyframes widenDiv{
+    0% {width: 0px;}
+    100% {width: 100px;}
+}
+
